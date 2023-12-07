@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+    gap: 10px; 
+}
+
+.botones button {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 9px;
+}
+
+
+
+.botones button {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+
+.botones button {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.botones button:hover {
+    cursor: pointer;
+    color: transparent; 
+    background: red;
+}
+
+.botones button:hover::before {
+    content: 'X'; 
+    color: black; 
+    font-weight: bold; 
+    
+}
+
+
+.resultado{
+    margin-top: 60px;
+}
